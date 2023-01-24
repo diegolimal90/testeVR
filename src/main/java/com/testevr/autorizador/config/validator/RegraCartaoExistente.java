@@ -1,9 +1,9 @@
-package com.testevr.autorizador.config.validacao;
+package com.testevr.autorizador.config.validator;
 
-import com.testevr.autorizador.config.excecao.CartaoExistenteException;
+import com.testevr.autorizador.config.exception.CartaoExistenteException;
 import com.testevr.autorizador.core.domain.Cartao;
 
-public class RegraCartaoJaExiste implements Regra<Cartao, Cartao>{
+public class RegraCartaoExistente implements Regra<Cartao, Cartao>{
 
     Cartao cartao;
 

@@ -1,7 +1,7 @@
 package com.testevr.autorizador.entrypoint.handler;
 
-import com.testevr.autorizador.config.excecao.CartaoExistenteException;
-import com.testevr.autorizador.config.excecao.CartaoInexistenteException;
+import com.testevr.autorizador.config.exception.CartaoExistenteException;
+import com.testevr.autorizador.config.exception.CartaoInexistenteException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

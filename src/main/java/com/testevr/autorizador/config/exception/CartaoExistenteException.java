@@ -1,4 +1,4 @@
-package com.testevr.autorizador.config.excecao;
+package com.testevr.autorizador.config.exception;
 
 import com.testevr.autorizador.core.domain.Cartao;
 

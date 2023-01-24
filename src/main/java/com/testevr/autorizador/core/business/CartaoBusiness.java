@@ -1,7 +1,7 @@
 package com.testevr.autorizador.core.business;
 
 import com.testevr.autorizador.core.domain.Cartao;
-import com.testevr.autorizador.config.validacao.CartaoValidator;
+import com.testevr.autorizador.config.validator.CartaoValidator;
 import com.testevr.autorizador.core.gateway.CartaoGateway;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

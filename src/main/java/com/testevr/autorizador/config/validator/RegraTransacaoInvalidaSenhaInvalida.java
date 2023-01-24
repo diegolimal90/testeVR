@@ -1,6 +1,6 @@
-package com.testevr.autorizador.config.validacao;
+package com.testevr.autorizador.config.validator;
 
-import com.testevr.autorizador.config.excecao.TransacaoSenhaInvalidaException;
+import com.testevr.autorizador.config.exception.TransacaoSenhaInvalidaException;
 import com.testevr.autorizador.core.domain.Cartao;
 import com.testevr.autorizador.core.domain.Transacao;
 

@@ -14,19 +14,19 @@ import java.util.Optional;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class TransacaoHttpModel implements Serializable {
+public class TransacaoRequest implements Serializable {
     private String numeroCartao;
     private String senhaCartao;
     private BigDecimal valor;
 
-    public static TransacaoHttpModel from(Transacao transacao){
+    public static TransacaoRequest from(Transacao transacao){
         return Optional.ofNullable(transacao).map(domain ->
-                        TransacaoHttpModel.builder()
+                        TransacaoRequest.builder()
                                 .numeroCartao(domain.getNumeroCartao())
                                 .senhaCartao(domain.getSenhaCartao())
                                 .valor(domain.getValor())
                                 .build())
-                .orElse(new TransacaoHttpModel());
+                .orElse(new TransacaoRequest());
     }
 
     public Transacao to(){

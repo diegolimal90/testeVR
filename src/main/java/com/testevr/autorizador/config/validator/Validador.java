@@ -1,4 +1,4 @@
-package com.testevr.autorizador.config.validacao;
+package com.testevr.autorizador.config.validator;
 
 import java.util.ArrayList;
 import java.util.List;

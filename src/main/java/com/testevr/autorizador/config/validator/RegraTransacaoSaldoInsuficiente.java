@@ -1,12 +1,12 @@
-package com.testevr.autorizador.config.validacao;
+package com.testevr.autorizador.config.validator;
 
-import com.testevr.autorizador.config.excecao.TransacaoSaldoInsuficienteException;
+import com.testevr.autorizador.config.exception.TransacaoSaldoInsuficienteException;
 import com.testevr.autorizador.core.domain.Cartao;
 import com.testevr.autorizador.core.domain.Transacao;
 
 import java.util.Objects;
 
-public class RegraTransacaoInvalidaSaldoInsuficiente implements Regra<Cartao, Transacao>{
+public class RegraTransacaoSaldoInsuficiente implements Regra<Cartao, Transacao>{
 
     @Override
     public boolean validar(Cartao cartao, Transacao transacao) {

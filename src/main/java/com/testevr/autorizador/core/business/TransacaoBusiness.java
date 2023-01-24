@@ -1,6 +1,6 @@
 package com.testevr.autorizador.core.business;
 
-import com.testevr.autorizador.config.validacao.TransacaoValidator;
+import com.testevr.autorizador.config.validator.TransacaoValidator;
 import com.testevr.autorizador.core.domain.Cartao;
 import com.testevr.autorizador.core.domain.Transacao;
 import com.testevr.autorizador.core.gateway.CartaoGateway;

@@ -1,8 +1,8 @@
 package com.testevr.autorizador.entrypoint.handler;
 
-import com.testevr.autorizador.config.excecao.TransacaoCartaoInexistenteException;
-import com.testevr.autorizador.config.excecao.TransacaoSaldoInsuficienteException;
-import com.testevr.autorizador.config.excecao.TransacaoSenhaInvalidaException;
+import com.testevr.autorizador.config.exception.TransacaoCartaoInexistenteException;
+import com.testevr.autorizador.config.exception.TransacaoSaldoInsuficienteException;
+import com.testevr.autorizador.config.exception.TransacaoSenhaInvalidaException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
